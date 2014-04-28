@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A77BA940190DD514001E222C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A77BA93F190DD514001E222C /* Foundation.framework */; };
+		A77BA942190DD514001E222C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A77BA941190DD514001E222C /* CoreGraphics.framework */; };
+		A77BA944190DD514001E222C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A77BA943190DD514001E222C /* UIKit.framework */; };
+		A77BA94A190DD514001E222C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A77BA948190DD514001E222C /* InfoPlist.strings */; };
+		A77BA94C190DD514001E222C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A77BA94B190DD514001E222C /* main.m */; };
+		A77BA950190DD514001E222C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A77BA94F190DD514001E222C /* AppDelegate.m */; };
+		A77BA953190DD514001E222C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A77BA951190DD514001E222C /* Main.storyboard */; };
+		A77BA956190DD514001E222C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A77BA955190DD514001E222C /* ViewController.m */; };
+		A77BA958190DD514001E222C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A77BA957190DD514001E222C /* Images.xcassets */; };
+		A77BA95F190DD514001E222C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A77BA95E190DD514001E222C /* XCTest.framework */; };
+		A77BA960190DD514001E222C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A77BA93F190DD514001E222C /* Foundation.framework */; };
+		A77BA961190DD514001E222C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A77BA943190DD514001E222C /* UIKit.framework */; };
+		A77BA969190DD514001E222C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A77BA967190DD514001E222C /* InfoPlist.strings */; };
+		A77BA96B190DD514001E222C /* homogeneousFontTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A77BA96A190DD514001E222C /* homogeneousFontTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A77BA962190DD514001E222C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A77BA934190DD514001E222C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A77BA93B190DD514001E222C;
+			remoteInfo = homogeneousFont;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A77BA93C190DD514001E222C /* homogeneousFont.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = homogeneousFont.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A77BA93F190DD514001E222C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A77BA941190DD514001E222C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A77BA943190DD514001E222C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A77BA947190DD514001E222C /* homogeneousFont-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "homogeneousFont-Info.plist"; sourceTree = "<group>"; };
+		A77BA949190DD514001E222C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A77BA94B190DD514001E222C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A77BA94D190DD514001E222C /* homogeneousFont-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "homogeneousFont-Prefix.pch"; sourceTree = "<group>"; };
+		A77BA94E190DD514001E222C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A77BA94F190DD514001E222C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A77BA952190DD514001E222C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A77BA954190DD514001E222C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A77BA955190DD514001E222C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A77BA957190DD514001E222C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A77BA95D190DD514001E222C /* homogeneousFontTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = homogeneousFontTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A77BA95E190DD514001E222C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A77BA966190DD514001E222C /* homogeneousFontTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "homogeneousFontTests-Info.plist"; sourceTree = "<group>"; };
+		A77BA968190DD514001E222C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A77BA96A190DD514001E222C /* homogeneousFontTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = homogeneousFontTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A77BA939190DD514001E222C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A77BA942190DD514001E222C /* CoreGraphics.framework in Frameworks */,
+				A77BA944190DD514001E222C /* UIKit.framework in Frameworks */,
+				A77BA940190DD514001E222C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A77BA95A190DD514001E222C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A77BA95F190DD514001E222C /* XCTest.framework in Frameworks */,
+				A77BA961190DD514001E222C /* UIKit.framework in Frameworks */,
+				A77BA960190DD514001E222C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A77BA933190DD514001E222C = {
+			isa = PBXGroup;
+			children = (
+				A77BA945190DD514001E222C /* homogeneousFont */,
+				A77BA964190DD514001E222C /* homogeneousFontTests */,
+				A77BA93E190DD514001E222C /* Frameworks */,
+				A77BA93D190DD514001E222C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A77BA93D190DD514001E222C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A77BA93C190DD514001E222C /* homogeneousFont.app */,
+				A77BA95D190DD514001E222C /* homogeneousFontTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A77BA93E190DD514001E222C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A77BA93F190DD514001E222C /* Foundation.framework */,
+				A77BA941190DD514001E222C /* CoreGraphics.framework */,
+				A77BA943190DD514001E222C /* UIKit.framework */,
+				A77BA95E190DD514001E222C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A77BA945190DD514001E222C /* homogeneousFont */ = {
+			isa = PBXGroup;
+			children = (
+				A77BA94E190DD514001E222C /* AppDelegate.h */,
+				A77BA94F190DD514001E222C /* AppDelegate.m */,
+				A77BA951190DD514001E222C /* Main.storyboard */,
+				A77BA954190DD514001E222C /* ViewController.h */,
+				A77BA955190DD514001E222C /* ViewController.m */,
+				A77BA957190DD514001E222C /* Images.xcassets */,
+				A77BA946190DD514001E222C /* Supporting Files */,
+			);
+			path = homogeneousFont;
+			sourceTree = "<group>";
+		};
+		A77BA946190DD514001E222C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A77BA947190DD514001E222C /* homogeneousFont-Info.plist */,
+				A77BA948190DD514001E222C /* InfoPlist.strings */,
+				A77BA94B190DD514001E222C /* main.m */,
+				A77BA94D190DD514001E222C /* homogeneousFont-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A77BA964190DD514001E222C /* homogeneousFontTests */ = {
+			isa = PBXGroup;
+			children = (
+				A77BA96A190DD514001E222C /* homogeneousFontTests.m */,
+				A77BA965190DD514001E222C /* Supporting Files */,
+			);
+			path = homogeneousFontTests;
+			sourceTree = "<group>";
+		};
+		A77BA965190DD514001E222C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A77BA966190DD514001E222C /* homogeneousFontTests-Info.plist */,
+				A77BA967190DD514001E222C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A77BA93B190DD514001E222C /* homogeneousFont */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A77BA96E190DD514001E222C /* Build configuration list for PBXNativeTarget "homogeneousFont" */;
+			buildPhases = (
+				A77BA938190DD514001E222C /* Sources */,
+				A77BA939190DD514001E222C /* Frameworks */,
+				A77BA93A190DD514001E222C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = homogeneousFont;
+			productName = homogeneousFont;
+			productReference = A77BA93C190DD514001E222C /* homogeneousFont.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A77BA95C190DD514001E222C /* homogeneousFontTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A77BA971190DD514001E222C /* Build configuration list for PBXNativeTarget "homogeneousFontTests" */;
+			buildPhases = (
+				A77BA959190DD514001E222C /* Sources */,
+				A77BA95A190DD514001E222C /* Frameworks */,
+				A77BA95B190DD514001E222C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A77BA963190DD514001E222C /* PBXTargetDependency */,
+			);
+			name = homogeneousFontTests;
+			productName = homogeneousFontTests;
+			productReference = A77BA95D190DD514001E222C /* homogeneousFontTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A77BA934190DD514001E222C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Rene A Basurto Q";
+				TargetAttributes = {
+					A77BA95C190DD514001E222C = {
+						TestTargetID = A77BA93B190DD514001E222C;
+					};
+				};
+			};
+			buildConfigurationList = A77BA937190DD514001E222C /* Build configuration list for PBXProject "homogeneousFont" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A77BA933190DD514001E222C;
+			productRefGroup = A77BA93D190DD514001E222C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A77BA93B190DD514001E222C /* homogeneousFont */,
+				A77BA95C190DD514001E222C /* homogeneousFontTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A77BA93A190DD514001E222C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A77BA958190DD514001E222C /* Images.xcassets in Resources */,
+				A77BA94A190DD514001E222C /* InfoPlist.strings in Resources */,
+				A77BA953190DD514001E222C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A77BA95B190DD514001E222C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A77BA969190DD514001E222C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A77BA938190DD514001E222C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A77BA956190DD514001E222C /* ViewController.m in Sources */,
+				A77BA950190DD514001E222C /* AppDelegate.m in Sources */,
+				A77BA94C190DD514001E222C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A77BA959190DD514001E222C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A77BA96B190DD514001E222C /* homogeneousFontTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A77BA963190DD514001E222C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A77BA93B190DD514001E222C /* homogeneousFont */;
+			targetProxy = A77BA962190DD514001E222C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A77BA948190DD514001E222C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A77BA949190DD514001E222C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A77BA951190DD514001E222C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A77BA952190DD514001E222C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A77BA967190DD514001E222C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A77BA968190DD514001E222C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A77BA96C190DD514001E222C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A77BA96D190DD514001E222C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A77BA96F190DD514001E222C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "homogeneousFont/homogeneousFont-Prefix.pch";
+				INFOPLIST_FILE = "homogeneousFont/homogeneousFont-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A77BA970190DD514001E222C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "homogeneousFont/homogeneousFont-Prefix.pch";
+				INFOPLIST_FILE = "homogeneousFont/homogeneousFont-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A77BA972190DD514001E222C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/homogeneousFont.app/homogeneousFont";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "homogeneousFont/homogeneousFont-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "homogeneousFontTests/homogeneousFontTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A77BA973190DD514001E222C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/homogeneousFont.app/homogeneousFont";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "homogeneousFont/homogeneousFont-Prefix.pch";
+				INFOPLIST_FILE = "homogeneousFontTests/homogeneousFontTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A77BA937190DD514001E222C /* Build configuration list for PBXProject "homogeneousFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A77BA96C190DD514001E222C /* Debug */,
+				A77BA96D190DD514001E222C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A77BA96E190DD514001E222C /* Build configuration list for PBXNativeTarget "homogeneousFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A77BA96F190DD514001E222C /* Debug */,
+				A77BA970190DD514001E222C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A77BA971190DD514001E222C /* Build configuration list for PBXNativeTarget "homogeneousFontTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A77BA972190DD514001E222C /* Debug */,
+				A77BA973190DD514001E222C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A77BA934190DD514001E222C /* Project object */;
+}
